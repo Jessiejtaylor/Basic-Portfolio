@@ -1,0 +1,12 @@
+body {
+    background-image: url("../images/morocco.png");
+    background-repeat: repeat;
+}
+header {
+    width: 100%;
+
+}
+
+h1 {
+    color: #4aaaa5;
+}
