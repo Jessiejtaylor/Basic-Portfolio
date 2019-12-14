@@ -6,17 +6,17 @@ body {
     font-family: 'Arial', Helvetica Neue, Helvetica, sans-serif;
     color: #777777;
 }
+
 #header {
-    width: 80%;
-    background-color: #ffffff;
-    margin: 0px;
-    float: left;
-    padding: 15px 10% 0;
-    border-bottom: 1px solid #cccccc;
+	background-color:white;
+	border-bottom: 1px solid #cccccc;
+    width: 70%;
+    margin: 0px auto;
+    padding: 15px 15% 0;
+    float:left;
 }
 
 #logo {
-    float: left;
     width: 19%;
     background-color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -25,10 +25,11 @@ body {
     font-weight: bold;
     padding: 2.5%;
     text-align: center;
+    float:left;
 }
 
 #nav {
-    float: right;
+	float:right;
     width: 75%;
     text-align: right;
     color: #777777;
@@ -37,23 +38,30 @@ body {
 
 #About {
     border-right: 1px solid #cccccc; 
-    padding: 7px;
+    padding: 2px 20px;
 }
 
 #Portfolio {
     border-right: 1px solid #cccccc; 
-    padding: 5px;
+    padding: 2px 20px;
 }
 
+#Contact {
+	padding: 2px 20px;
+}
+
+a {text-decoration:none; color: #777777;}
+
 #content {
-    float: left;
     margin: 0;
     background-color: white;
     border: 1px solid #dddddd;
-    width: 70%;
-    margin: 5% 10%;
+    width: 60%;
+    margin: 5% 15%;
     padding: 5%;
     line-height: 24px;
+    text-align: left;
+    float:left;
 }
 
 #footer {
@@ -77,6 +85,39 @@ h1 {
     padding-bottom: 10px;
 }
 
+#picture {
+    width: 350px;
+    padding: 15px;
+    float: left;
+ } 
+
 li {
     display: inline;
+}
+
+form {
+margin: 20px 0px;
+}
+
+fieldset {
+border:none;
+}
+
+input {
+width:100%;
+margin-bottom:20px;
+height: 20px;
+}
+
+#submit {
+background-color: #4aaaa5;
+color:white;
+width: 200px;
+padding:10px;
+height: 40px;
+font-weight: bold;
+}
+
+#message {
+height: 100px;
 }
